@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.source_files          = 'RxCocoa/**/*.{swift,h,m}', 'Platform/**/*.swift'
   s.exclude_files         = 'RxCocoa/Platform/**/*.swift', 'Platform/AtomicInt.swift'
 
-  s.dependency 'RxSwift', '6.6.0'
-  s.dependency 'RxRelay', '6.6.0'
+  s.dependency 'RxSwift', '6.2.0'
+  s.dependency 'RxRelay', '6.2.0'
 
   s.resource_bundles = {"RxCocoa" => ["RxCocoa/PrivacyInfo.xcprivacy"]}
   
